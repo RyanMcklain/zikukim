@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, Button, Linking } from 'react-native';
 import RNImmediatePhoneCall from 'react-native-immediate-phone-call';
 import call from 'react-native-phone-call'
 
+import StartPage from './pages/start-page';
+
 export default function App() {
   const onPress = () => {
     console.log('touch?');
@@ -19,7 +21,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Button title="batshit crazy!" onPress={ onPress }/>
+      <StartPage />
     </View>
   );
 }
