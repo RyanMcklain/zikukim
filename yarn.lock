@@ -2246,6 +2246,13 @@ expo-constants@~9.0.0:
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-9.0.0.tgz#35c600079ee91d38fe4f56375caae6e90f122fdd"
   integrity sha512-1kqZMM8Ez5JT3sTEx8I69fP6NYFLOJjeM6Z63dD/m2NiwvzSADiO5+BhghnWNGN1L3bxbgOjXS6EHtS7CdSfxA==
 
+expo-contacts@~8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/expo-contacts/-/expo-contacts-8.1.0.tgz#fce76b79e47943a847315186aa70e1fd68d65d02"
+  integrity sha512-Szv3kJDZHIgd2RVwrFojY0FJOdKnU2rDd2zYkzCEocrSTp7uZk5BQ05rkF5biRH7EYAXz+GxHxBbUoqS+bBDCw==
+  dependencies:
+    uuid "^3.4.0"
+
 expo-error-recovery@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-error-recovery/-/expo-error-recovery-1.1.0.tgz#98b9de5400dbfd022d1631739f3bf5e7016565da"
@@ -4247,6 +4254,21 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-contacts@^5.2.0:
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/react-native-contacts/-/react-native-contacts-5.2.8.tgz#280fce6b10ad1be4dc58f78f1c118be436ee98a0"
+  integrity sha512-HqY2jWGjAnSdkLrEBz1rW7ruEatqR0p+a4avVof1HxG31Isp21AHvnpd3PAwm70e+3SEAfmLA/OcNWoK9KSvgw==
+
+react-native-immediate-phone-call@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-immediate-phone-call/-/react-native-immediate-phone-call-2.0.0.tgz#eb79431553188a36e8e9cbb6719c28cbb317ac86"
+  integrity sha512-ImE+KfiuuVS+A6BZ2jkVkJsXzvOpREh/YubdhgJ7CYdbMLbieBG56K28B+M3evMaMFzs9reGFmQpDTMTIJBjaQ==
+
+react-native-phone-call@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-phone-call/-/react-native-phone-call-1.0.9.tgz#4468ec6f95856557fbff9bd69a0db04b54c35e1d"
+  integrity sha512-OPWYg8qeWNG/U4bWGMAKcQTH/ifqJnsvUPCH4lOkvWFHbQS3fbH5M8rFhXCzcfS0GVNzHhZX9ZByMM368TFAUQ==
+
 react-native-view-shot@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/react-native-view-shot/-/react-native-view-shot-3.1.2.tgz#8c8e84c67a4bc8b603e697dbbd59dbc9b4f84825"
@@ -5027,9 +5049,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-es@^3.1.9:
   version "3.3.9"
